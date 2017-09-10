@@ -2,7 +2,7 @@ class Genre
   attr_accessor :name
   attr_reader :songs
 
-  def initalize(name)
+  def initialize(name)
     @name = name
     @songs = []
   end
